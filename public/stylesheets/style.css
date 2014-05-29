@@ -1,0 +1,56 @@
+body
+{
+    position:relative;
+    left:40px;
+    padding: 30px;
+    font: 14px "Time New Roman", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    margin:0 0 .5em 0;
+}
+
+h1 {
+    font: 20px "Time New Roman", Helvetica, Arial, sans-serif;
+    margin:0 0 .5em 0;
+}
+a {
+    color: #00B7FF;
+}
+
+#wrapper {
+    background-color:#EBF5F3;
+    padding-left:312px;
+    position:relative;
+}
+
+#weather-detail {
+    margin:0 0 30px 0;
+    display: none;
+}
+#weather-detail table {
+    border-collapse:separate;
+    border-spacing:1px;
+    background:#CCC;
+}
+#weather-detail table th {
+    background:#EEE;
+    font-weight:600;
+    padding:10px 20px;
+    text-align:center;
+}
+#weather-detail table tbody {
+    padding:0; margin:0;
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+#weather-detail table td {
+    background:#FFF;
+    padding:5px 10px;
+    text-align:center;
+}
+
+fieldset {
+    border:0;
+    padding:0; margin:0;
+}
