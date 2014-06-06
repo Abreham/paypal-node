@@ -1,6 +1,6 @@
 var request = require('request');
 
-var wundernode = function (apikey, debug, rateCount, rateTime) {
+var weathernode = function (apikey, debug, rateCount, rateTime) {
     var that = this;
     var format = ".json";
     console.log('client initialized with key: ' + apikey + ', debuging ...' + (debug == true ? 'enabled' : 'disabled' ));
@@ -39,4 +39,4 @@ var wundernode = function (apikey, debug, rateCount, rateTime) {
 
 };
 
-module.exports = wundernode;
+module.exports = weathernode;
