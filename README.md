@@ -1,4 +1,4 @@
-paypal-node
+paypal-nodeJS
 ===========
 
 USAGE
